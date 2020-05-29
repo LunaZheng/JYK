@@ -1,0 +1,1953 @@
+﻿{
+  "pages": {
+    "producttype": "1000", //----------产品类型
+    "productname": "相册", //----------产品类型名
+    "productid": "1001", //------------产品编号
+    "pagescount": "21", // ----------总页数,对应下面的page节点数量
+    "photocount": "56", // ----------需要的照片总数,可以用来判断整个产品是否填充完整,为page节点的photocount汇总
+    "name": "成长的小树", // ----------模板标题
+    "image": "Templatethumb/封面缩略图.jpg", // ----------缩略图
+    "albumwidth": "5440", // ----------实际宽度
+    "albumheight": "2000", // ----------实际高度
+    "viewcount": "9963", //------------浏览次数
+    "downcount": "9963", // ----------下载次数
+    "albumsize": "0", //------------形状,横0方1竖2
+    "materialtype": "2",
+    "host": "http://www.binfenle.com/", //--------------------域名
+    "page": [{
+      "id": "17c949bbccfe58d21e69451b040bd27f", // ---------"页面编号",
+      "photocount": "2", //------本页所需照片数量,可以用来判断当页是否填充完整
+      "text": "",
+      "path": "Templatethumb/17c949bbccfe58d21e69451b040bd27f.xml",
+      "images": "Templatethumb/17c949bbccfe58d21e69451b040bd27f_s.jpg", // ------------小图未填充
+      "imagem": "Templatethumb/17c949bbccfe58d21e69451b040bd27f_M.jpg", // ------------大图未填充
+      "image": "Templatethumb/17c949bbccfe58d21e69451b040bd27f.jpg", // ------------小图已填充
+      "vorh": "-1",
+      "index": "0", // -------------每页显示次序, 从0开始. 按照顺序显示在编辑的位置
+      "imagemm": "Templatethumb/1000.jpg", // ------------大图已填充
+
+      "pagewidth": "450", // -------------页面编辑时宽度,和产品类型有关
+      "pageheight": "330", // --------------页面编辑时高度,和产品类型有关
+
+      "layer": [{
+        "type": "image", // ----------图片类型的层, 可能存在文字类型(text)
+        "isEditable": "false", // -----------是否可编辑
+        "alpha": "1",  // ---------透明度
+        "blendmode": "0",
+        "layertype": "3", // -----0底层背景,1需要填充图片框,2照片,3前景图,5可编辑文字
+        "rect": "0;0;450;330", // ---------------显示位置
+        "img": {
+          "id": "58376c6567669fc8bce7c949318d93ee",
+          "url": "Templatethumb/58376c6567669fc8bce7c949318d93ee.jpg", //--模板背景图 
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0", // ----------旋转角度
+          "primitiveWidth": "3555", //--------------------实际宽度,不需要使用
+          "primitiveHeight": "2610", // ----------------实际高度,不需要使用
+          "imageRect": "0;0;450;330" //---------展示位置,分别是x,y,宽度和高度
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "72;188;100;103",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;100;103"
+        },
+        "mask": { //---------蒙版层
+          "id": "f07ba5d95c440f1d86d5d0292ec58d28",
+          "url": "Templatethumb/f07ba5d95c440f1d86d5d0292ec58d28.png", // ------------蒙版路径
+          "isrectmask": "false"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "162;51;168;174",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;168;174"
+        },
+        "mask": {
+          "id": "d9cd2c0d167b94c8966a8016b4f0fb7a",
+          "url": "Templatethumb/d9cd2c0d167b94c8966a8016b4f0fb7a.png",
+          "isrectmask": "false"
+        }
+      }]
+    }, {
+      "id": "54597100245081845e8ab05b81e96bbb",
+      "photocount": "3",
+      "text": "",
+      "path": "Templatethumb/54597100245081845e8ab05b81e96bbb.xml",
+      "images": "Templatethumb/54597100245081845e8ab05b81e96bbb_s.jpg",
+      "imagem": "Templatethumb/54597100245081845e8ab05b81e96bbb_M.jpg",
+      "image": "Templatethumb/54597100245081845e8ab05b81e96bbb.jpg",
+      "vorh": "-1",
+      "index": "1",
+      "imagemm": "Templatethumb/0.jpg",
+      "pagewidth": "450",
+      "pageheight": "330",
+      "layer": [{
+        "type": "image",
+        "isEditable": "false",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "3",
+        "rect": "0;0;450;330",
+        "img": {
+          "id": "2a7cbec3a686828455fcc3dd224126bf",
+          "url": "Templatethumb/2a7cbec3a686828455fcc3dd224126bf.jpg",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "3555",
+          "primitiveHeight": "2610",
+          "imageRect": "0;0;450;330"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "187;29;95;101",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;95;101"
+        },
+        "mask": {
+          "id": "c272a8cd74c3ce5bf481c4d56d963055",
+          "url": "Templatethumb/c272a8cd74c3ce5bf481c4d56d963055.png",
+          "isrectmask": "false"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "113;121;95;97",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;95;97"
+        },
+        "mask": {
+          "id": "964e3d591a743aab2bad77c2f34fe512",
+          "url": "Templatethumb/964e3d591a743aab2bad77c2f34fe512.png",
+          "isrectmask": "false"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "220;104;119;122",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;119;122"
+        },
+        "mask": {
+          "id": "1173490d512f35b0ce211c14a572b8fe",
+          "url": "Templatethumb/1173490d512f35b0ce211c14a572b8fe.png",
+          "isrectmask": "false"
+        }
+      }, {
+        "type": "serverText",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "5",
+        "rect": "297;31;85;40",
+        "img": {
+          "id": "6bf493dda1433e331a68ad5bdf4307f7",
+          "url": "Templatethumb/6bf493dda1433e331a68ad5bdf4307f7.png",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "666",
+          "primitiveHeight": "314",
+          "imageRect": "0;0;85;40"
+        },
+        "format": {
+          "text": "",
+          "fontName": "",
+          "fontSize": "0",
+          "fontStyle": "0",
+          "fontStroke": "0",
+          "fontShadow": "0",
+          "fontOpacity": "0",
+          "fontB": "0",
+          "fontI": "0",
+          "fontAlignment": "0",
+          "fontColor": "0",
+          "fontShadowColor": "0",
+          "fontStrokeColor": "0"
+        }
+      }]
+
+    }, {
+      "id": "5d75e67c20ef15acd9c54a8ac0f18e46",
+      "photocount": "3",
+      "text": "",
+      "path": "Templatethumb/5d75e67c20ef15acd9c54a8ac0f18e46.xml",
+      "images": "Templatethumb/5d75e67c20ef15acd9c54a8ac0f18e46_s.jpg",
+      "imagem": "Templatethumb/5d75e67c20ef15acd9c54a8ac0f18e46_M.jpg",
+      "image": "Templatethumb/5d75e67c20ef15acd9c54a8ac0f18e46.jpg",
+      "vorh": "-1",
+      "index": "3",
+      "imagemm": "Templatethumb/2.jpg",
+      "pagewidth": "450",
+      "pageheight": "330",
+      "layer": [{
+        "type": "image",
+        "isEditable": "false",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "3",
+        "rect": "0;0;450;330",
+        "img": {
+          "id": "880b6b771966158fe87e355800e2c5d2",
+          "url": "Templatethumb/880b6b771966158fe87e355800e2c5d2.jpg",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "3555",
+          "primitiveHeight": "2610",
+          "imageRect": "0;0;450;330"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "252;194;112;107",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;112;107"
+        },
+        "mask": {
+          "id": "1e5ecf047fddeb6675c0d81b5ce54466",
+          "url": "Templatethumb/1e5ecf047fddeb6675c0d81b5ce54466.png",
+          "isrectmask": "false"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "104;76;104;109",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;104;109"
+        },
+        "mask": {
+          "id": "1dec20b3b1a7070f2f6ccc7b90fb65e6",
+          "url": "Templatethumb/1dec20b3b1a7070f2f6ccc7b90fb65e6.png",
+          "isrectmask": "false"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "212;52;140;147",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;140;147"
+        },
+        "mask": {
+          "id": "3faa745b17e0e61c4f4e72b0c1a96024",
+          "url": "Templatethumb/3faa745b17e0e61c4f4e72b0c1a96024.png",
+          "isrectmask": "false"
+        }
+      }]
+    }, {
+      "id": "32ca951e5668096cc8f12c4fd128eec8",
+      "photocount": "2",
+      "text": "",
+      "path": "Templatethumb/32ca951e5668096cc8f12c4fd128eec8.xml",
+      "images": "Templatethumb/32ca951e5668096cc8f12c4fd128eec8_s.jpg",
+      "imagem": "Templatethumb/32ca951e5668096cc8f12c4fd128eec8_M.jpg",
+      "image": "Templatethumb/32ca951e5668096cc8f12c4fd128eec8.jpg",
+      "vorh": "-1",
+      "index": "4",
+      "imagemm": "Templatethumb/3.jpg",
+      "pagewidth": "450",
+      "pageheight": "330",
+      "layer": [{
+        "type": "image",
+        "isEditable": "false",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "3",
+        "rect": "0;0;450;330",
+        "img": {
+          "id": "e426a98ed59e791599f19a2942db7b7e",
+          "url": "Templatethumb/e426a98ed59e791599f19a2942db7b7e.jpg",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "3555",
+          "primitiveHeight": "2610",
+          "imageRect": "0;0;450;330"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "305;229;68;70",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;68;70"
+        },
+        "mask": {
+          "id": "9db5f29d8dffcf265238d3930e4abf4a",
+          "url": "Templatethumb/9db5f29d8dffcf265238d3930e4abf4a.png",
+          "isrectmask": "false"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "98;44;256;172",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;256;172"
+        },
+        "mask": {
+          "id": "d2a5212702fffb3242cdd96a02664791",
+          "url": "Templatethumb/d2a5212702fffb3242cdd96a02664791.png",
+          "isrectmask": "false"
+        }
+      }]
+    }, {
+      "id": "927f9a08bcea7a37da19516eeede9ce6",
+      "photocount": "2",
+      "text": "",
+      "path": "Templatethumb/927f9a08bcea7a37da19516eeede9ce6.xml",
+      "images": "Templatethumb/927f9a08bcea7a37da19516eeede9ce6_s.jpg",
+      "imagem": "Templatethumb/927f9a08bcea7a37da19516eeede9ce6_M.jpg",
+      "image": "Templatethumb/927f9a08bcea7a37da19516eeede9ce6.jpg",
+      "vorh": "-1",
+      "index": "5",
+      "imagemm": "Templatethumb/4.jpg",
+      "pagewidth": "450",
+      "pageheight": "330",
+      "layer": [{
+        "type": "image",
+        "isEditable": "false",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "3",
+        "rect": "0;0;450;330",
+        "img": {
+          "id": "bbc22f2da28ca4efddad997a3f65f75d",
+          "url": "Templatethumb/bbc22f2da28ca4efddad997a3f65f75d.jpg",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "3555",
+          "primitiveHeight": "2610",
+          "imageRect": "0;0;450;330"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "74;173;103;104",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;103;104"
+        },
+        "mask": {
+          "id": "d108391db1471c33316dea61a76e72fb",
+          "url": "Templatethumb/d108391db1471c33316dea61a76e72fb.png",
+          "isrectmask": "false"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "199;46;122;155",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;122;155"
+        },
+        "mask": {
+          "id": "49c0c56e9647a9dd7e9e0a5920eb380f",
+          "url": "Templatethumb/49c0c56e9647a9dd7e9e0a5920eb380f.png",
+          "isrectmask": "false"
+        }
+      }]
+    }, {
+      "id": "3ba482bf8b806e8c44d998ebc56e24f4",
+      "photocount": "3",
+      "text": "",
+      "path": "Templatethumb/3ba482bf8b806e8c44d998ebc56e24f4.xml",
+      "images": "Templatethumb/3ba482bf8b806e8c44d998ebc56e24f4_s.jpg",
+      "imagem": "Templatethumb/3ba482bf8b806e8c44d998ebc56e24f4_M.jpg",
+      "image": "Templatethumb/3ba482bf8b806e8c44d998ebc56e24f4.jpg",
+      "vorh": "-1",
+      "index": "6",
+      "imagemm": "Templatethumb/5.jpg",
+      "pagewidth": "450",
+      "pageheight": "330",
+      "layer": [{
+        "type": "image",
+        "isEditable": "false",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "3",
+        "rect": "0;0;450;330",
+        "img": {
+          "id": "52e9d2041cf2a0339736c32cd77975ba",
+          "url": "Templatethumb/52e9d2041cf2a0339736c32cd77975ba.jpg",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "3555",
+          "primitiveHeight": "2610",
+          "imageRect": "0;0;450;330"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "114;112;105;108",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;105;108"
+        },
+        "mask": {
+          "id": "eabc1f5e2a74d611d0e5dbe83edd7edc",
+          "url": "Templatethumb/eabc1f5e2a74d611d0e5dbe83edd7edc.png",
+          "isrectmask": "false"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "175;24;105;110",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;105;110"
+        },
+        "mask": {
+          "id": "3d1675bfe82222503cf6509979a39c8f",
+          "url": "Templatethumb/3d1675bfe82222503cf6509979a39c8f.png",
+          "isrectmask": "false"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "223;103;132;135",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;132;135"
+        },
+        "mask": {
+          "id": "3597614b3b3aba2369a196468543e745",
+          "url": "Templatethumb/3597614b3b3aba2369a196468543e745.png",
+          "isrectmask": "false"
+        }
+      }]
+    }, {
+      "id": "25ae6d1a4ff9a22519ad8d522852fad3",
+      "photocount": "1",
+      "text": "",
+      "path": "Templatethumb/25ae6d1a4ff9a22519ad8d522852fad3.xml",
+      "images": "Templatethumb/25ae6d1a4ff9a22519ad8d522852fad3_s.jpg",
+      "imagem": "Templatethumb/25ae6d1a4ff9a22519ad8d522852fad3_M.jpg",
+      "image": "Templatethumb/25ae6d1a4ff9a22519ad8d522852fad3.jpg",
+      "vorh": "-1",
+      "index": "7",
+      "imagemm": "Templatethumb/6.jpg",
+      "pagewidth": "450",
+      "pageheight": "330",
+      "layer": [{
+        "type": "image",
+        "isEditable": "false",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "3",
+        "rect": "0;0;450;330",
+        "img": {
+          "id": "34efbdfe6fcbd63be3932247bc7d06bd",
+          "url": "Templatethumb/34efbdfe6fcbd63be3932247bc7d06bd.jpg",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "3555",
+          "primitiveHeight": "2610",
+          "imageRect": "0;0;450;330"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "112;34;230;197",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;230;197"
+        },
+        "mask": {
+          "id": "609e1e5d49ae9e8e7ba8dc4d831c0821",
+          "url": "Templatethumb/609e1e5d49ae9e8e7ba8dc4d831c0821.png",
+          "isrectmask": "false"
+        }
+      }]
+    }, {
+      "id": "002d26c5d583c9beba6270196ad78fe2",
+      "photocount": "2",
+      "text": "",
+      "path": "Templatethumb/002d26c5d583c9beba6270196ad78fe2.xml",
+      "images": "Templatethumb/002d26c5d583c9beba6270196ad78fe2_s.jpg",
+      "imagem": "Templatethumb/002d26c5d583c9beba6270196ad78fe2_M.jpg",
+      "image": "Templatethumb/002d26c5d583c9beba6270196ad78fe2.jpg",
+      "vorh": "-1",
+      "index": "8",
+      "imagemm": "Templatethumb/7.jpg",
+      "pagewidth": "450",
+      "pageheight": "330",
+      "layer": [{
+        "type": "image",
+        "isEditable": "false",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "3",
+        "rect": "0;0;450;330",
+        "img": {
+          "id": "40e172dc046976bbb5af4a256fd0de2a",
+          "url": "Templatethumb/40e172dc046976bbb5af4a256fd0de2a.jpg",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "3555",
+          "primitiveHeight": "2610",
+          "imageRect": "0;0;450;330"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "81;50;128;158",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;128;158"
+        },
+        "mask": {
+          "id": "2c905ae8dc4b4bd1b12712545bf2cf07",
+          "url": "Templatethumb/2c905ae8dc4b4bd1b12712545bf2cf07.png",
+          "isrectmask": "false"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "238;71;130;159",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;130;159"
+        },
+        "mask": {
+          "id": "f73af1e6574ac3cb7ccef6a517acb14f",
+          "url": "Templatethumb/f73af1e6574ac3cb7ccef6a517acb14f.png",
+          "isrectmask": "false"
+        }
+      }]
+    }, {
+      "id": "0f5780680325ba28b82f0cc727011e39",
+      "photocount": "5",
+      "text": "",
+      "path": "Templatethumb/0f5780680325ba28b82f0cc727011e39.xml",
+      "images": "Templatethumb/0f5780680325ba28b82f0cc727011e39_s.jpg",
+      "imagem": "Templatethumb/0f5780680325ba28b82f0cc727011e39_M.jpg",
+      "image": "Templatethumb/0f5780680325ba28b82f0cc727011e39.jpg",
+      "vorh": "-1",
+      "index": "9",
+      "imagemm": "Templatethumb/8.jpg",
+      "pagewidth": "450",
+      "pageheight": "330",
+      "layer": [{
+        "type": "image",
+        "isEditable": "false",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "3",
+        "rect": "0;0;450;330",
+        "img": {
+          "id": "0907990b557e00bd5fb2c0c253dfdb6f",
+          "url": "Templatethumb/0907990b557e00bd5fb2c0c253dfdb6f.jpg",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "3555",
+          "primitiveHeight": "2610",
+          "imageRect": "0;0;450;330"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "281;169;84;100",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;84;100"
+        },
+        "mask": {
+          "id": "dbb601e8f2d61cb01c04cf72b4bb32dc",
+          "url": "Templatethumb/dbb601e8f2d61cb01c04cf72b4bb32dc.png",
+          "isrectmask": "false"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "178;166;103;107",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;103;107"
+        },
+        "mask": {
+          "id": "b9cc756756b22995622d654eb253734c",
+          "url": "Templatethumb/b9cc756756b22995622d654eb253734c.png",
+          "isrectmask": "false"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "88;168;94;102",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;94;102"
+        },
+        "mask": {
+          "id": "d3089e947c2c76cbdd33b7c508a914cf",
+          "url": "Templatethumb/d3089e947c2c76cbdd33b7c508a914cf.png",
+          "isrectmask": "false"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "284;51;91;96",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;91;96"
+        },
+        "mask": {
+          "id": "1237dc6ca7985b5168185907c8660479",
+          "url": "Templatethumb/1237dc6ca7985b5168185907c8660479.png",
+          "isrectmask": "false"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "79;50;94;102",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;94;102"
+        },
+        "mask": {
+          "id": "9e9d41e860d6e30ba09619ab55447086",
+          "url": "Templatethumb/9e9d41e860d6e30ba09619ab55447086.png",
+          "isrectmask": "false"
+        }
+      }]
+    }, {
+      "id": "9b4b2f7e241c1e07cfeea29f35db329d",
+      "photocount": "2",
+      "text": "",
+      "path": "Templatethumb/9b4b2f7e241c1e07cfeea29f35db329d.xml",
+      "images": "Templatethumb/9b4b2f7e241c1e07cfeea29f35db329d_s.jpg",
+      "imagem": "Templatethumb/9b4b2f7e241c1e07cfeea29f35db329d_M.jpg",
+      "image": "Templatethumb/9b4b2f7e241c1e07cfeea29f35db329d.jpg",
+      "vorh": "-1",
+      "index": "10",
+      "imagemm": "Templatethumb/9.jpg",
+      "pagewidth": "450",
+      "pageheight": "330",
+      "layer": [{
+        "type": "image",
+        "isEditable": "false",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "3",
+        "rect": "0;0;450;330",
+        "img": {
+          "id": "5d10475a2b0b3f9f690178c7673c9b73",
+          "url": "Templatethumb/5d10475a2b0b3f9f690178c7673c9b73.jpg",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "3555",
+          "primitiveHeight": "2610",
+          "imageRect": "0;0;450;330"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "305;229;68;70",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;68;70"
+        },
+        "mask": {
+          "id": "e907be18b162ab79bdd8a3b5bc2957af",
+          "url": "Templatethumb/e907be18b162ab79bdd8a3b5bc2957af.png",
+          "isrectmask": "false"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "98;44;256;162",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;256;162"
+        },
+        "mask": {
+          "id": "9d84a39e61c3ea76cd2c8ec1bdc95eaa",
+          "url": "Templatethumb/9d84a39e61c3ea76cd2c8ec1bdc95eaa.png",
+          "isrectmask": "false"
+        }
+      }]
+    }, {
+      "id": "1233c67a80c16586666c5f452abd9afd",
+      "photocount": "2",
+      "text": "",
+      "path": "Templatethumb/1233c67a80c16586666c5f452abd9afd.xml",
+      "images": "Templatethumb/1233c67a80c16586666c5f452abd9afd_s.jpg",
+      "imagem": "Templatethumb/1233c67a80c16586666c5f452abd9afd_M.jpg",
+      "image": "Templatethumb/1233c67a80c16586666c5f452abd9afd.jpg",
+      "vorh": "-1",
+      "index": "11",
+      "imagemm": "Templatethumb/10.jpg",
+      "pagewidth": "450",
+      "pageheight": "330",
+      "layer": [{
+        "type": "image",
+        "isEditable": "false",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "3",
+        "rect": "0;0;450;330",
+        "img": {
+          "id": "544fc387d302bc878d50eeffaab2952d",
+          "url": "Templatethumb/544fc387d302bc878d50eeffaab2952d.jpg",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "3555",
+          "primitiveHeight": "2610",
+          "imageRect": "0;0;450;330"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "237;136;119;120",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;119;120"
+        },
+        "mask": {
+          "id": "a35553112f97bf46c883a54ae135d2fc",
+          "url": "Templatethumb/a35553112f97bf46c883a54ae135d2fc.png",
+          "isrectmask": "false"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "91;25;172;175",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;172;175"
+        },
+        "mask": {
+          "id": "d3d09ed5c0429aba9b6a63293b7a88d5",
+          "url": "Templatethumb/d3d09ed5c0429aba9b6a63293b7a88d5.png",
+          "isrectmask": "false"
+        }
+      }]
+    }, {
+      "id": "9bee07bd8a0e397e852f23242c34c404",
+      "photocount": "3",
+      "text": "",
+      "path": "Templatethumb/9bee07bd8a0e397e852f23242c34c404.xml",
+      "images": "Templatethumb/9bee07bd8a0e397e852f23242c34c404_s.jpg",
+      "imagem": "Templatethumb/9bee07bd8a0e397e852f23242c34c404_M.jpg",
+      "image": "Templatethumb/9bee07bd8a0e397e852f23242c34c404.jpg",
+      "vorh": "-1",
+      "index": "12",
+      "imagemm": "Templatethumb/11.jpg",
+      "pagewidth": "450",
+      "pageheight": "330",
+      "layer": [{
+        "type": "image",
+        "isEditable": "false",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "3",
+        "rect": "0;0;450;330",
+        "img": {
+          "id": "5ff3f77dc492edef2440de21085bbd7c",
+          "url": "Templatethumb/5ff3f77dc492edef2440de21085bbd7c.jpg",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "3555",
+          "primitiveHeight": "2610",
+          "imageRect": "0;0;450;330"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "165;130;162;138",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;162;138"
+        },
+        "mask": {
+          "id": "868572bc013a42e15eea0bd64f87253c",
+          "url": "Templatethumb/868572bc013a42e15eea0bd64f87253c.png",
+          "isrectmask": "false"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "314;119;105;95",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;105;95"
+        },
+        "mask": {
+          "id": "617ad8bbed674ae7c4b8b533185e450f",
+          "url": "Templatethumb/617ad8bbed674ae7c4b8b533185e450f.png",
+          "isrectmask": "false"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "229;25;167;120",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;167;120"
+        },
+        "mask": {
+          "id": "8d5da297871418d75783acefc2c9edd9",
+          "url": "Templatethumb/8d5da297871418d75783acefc2c9edd9.png",
+          "isrectmask": "false"
+        }
+      }]
+    }, {
+      "id": "283892721a4c723dae74a2e7ad891763",
+      "photocount": "4",
+      "text": "",
+      "path": "Templatethumb/283892721a4c723dae74a2e7ad891763.xml",
+      "images": "Templatethumb/283892721a4c723dae74a2e7ad891763_s.jpg",
+      "imagem": "Templatethumb/283892721a4c723dae74a2e7ad891763_M.jpg",
+      "image": "Templatethumb/283892721a4c723dae74a2e7ad891763.jpg",
+      "vorh": "-1",
+      "index": "13",
+      "imagemm": "Templatethumb/12.jpg",
+      "pagewidth": "450",
+      "pageheight": "330",
+      "layer": [{
+        "type": "image",
+        "isEditable": "false",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "3",
+        "rect": "0;0;450;330",
+        "img": {
+          "id": "cb35bd843076797c329818c45ab3cd76",
+          "url": "Templatethumb/cb35bd843076797c329818c45ab3cd76.jpg",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "3555",
+          "primitiveHeight": "2610",
+          "imageRect": "0;0;450;330"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "37;68;105;94",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;105;94"
+        },
+        "mask": {
+          "id": "5e1d28a6b883b2a90e0d3445dada8e44",
+          "url": "Templatethumb/5e1d28a6b883b2a90e0d3445dada8e44.png",
+          "isrectmask": "false"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "109;51;158;201",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;158;201"
+        },
+        "mask": {
+          "id": "6ef4c7cb5372a53535927a3bd6ecbc15",
+          "url": "Templatethumb/6ef4c7cb5372a53535927a3bd6ecbc15.png",
+          "isrectmask": "false"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "266;131;102;118",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;102;118"
+        },
+        "mask": {
+          "id": "32c8f8f57d30ab58497b7fed5fe04598",
+          "url": "Templatethumb/32c8f8f57d30ab58497b7fed5fe04598.png",
+          "isrectmask": "false"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "254;23;92;111",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;92;111"
+        },
+        "mask": {
+          "id": "38850e7684f9c9d9af8751367665bd5b",
+          "url": "Templatethumb/38850e7684f9c9d9af8751367665bd5b.png",
+          "isrectmask": "false"
+        }
+      }]
+    }, {
+      "id": "612ca999f3183b318c3377f1e1e087fc",
+      "photocount": "3",
+      "text": "",
+      "path": "Templatethumb/612ca999f3183b318c3377f1e1e087fc.xml",
+      "images": "Templatethumb/612ca999f3183b318c3377f1e1e087fc_s.jpg",
+      "imagem": "Templatethumb/612ca999f3183b318c3377f1e1e087fc_M.jpg",
+      "image": "Templatethumb/612ca999f3183b318c3377f1e1e087fc.jpg",
+      "vorh": "-1",
+      "index": "14",
+      "imagemm": "Templatethumb/13.jpg",
+      "pagewidth": "450",
+      "pageheight": "330",
+      "layer": [{
+        "type": "image",
+        "isEditable": "false",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "3",
+        "rect": "0;0;450;330",
+        "img": {
+          "id": "a9f98a12145aceb04d2992f2fc8863f8",
+          "url": "Templatethumb/a9f98a12145aceb04d2992f2fc8863f8.jpg",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "3555",
+          "primitiveHeight": "2610",
+          "imageRect": "0;0;450;330"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "247;44;63;63",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;63;63"
+        },
+        "mask": {
+          "id": "bc13d7610af03791c7c75de3877408d6",
+          "url": "Templatethumb/bc13d7610af03791c7c75de3877408d6.png",
+          "isrectmask": "false"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "283;87;78;82",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;78;82"
+        },
+        "mask": {
+          "id": "67cecd74ede04d89805992719de7622a",
+          "url": "Templatethumb/67cecd74ede04d89805992719de7622a.png",
+          "isrectmask": "false"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "87;53;232;248",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;232;248"
+        },
+        "mask": {
+          "id": "a0ce09192cb04ff34c3509ca8ab6c2e9",
+          "url": "Templatethumb/a0ce09192cb04ff34c3509ca8ab6c2e9.png",
+          "isrectmask": "false"
+        }
+      }]
+    }, {
+      "id": "78a498b861572c6b6ac461317b5405c1",
+      "photocount": "3",
+      "text": "",
+      "path": "Templatethumb/78a498b861572c6b6ac461317b5405c1.xml",
+      "images": "Templatethumb/78a498b861572c6b6ac461317b5405c1_s.jpg",
+      "imagem": "Templatethumb/78a498b861572c6b6ac461317b5405c1_M.jpg",
+      "image": "Templatethumb/78a498b861572c6b6ac461317b5405c1.jpg",
+      "vorh": "-1",
+      "index": "15",
+      "imagemm": "Templatethumb/14.jpg",
+      "pagewidth": "450",
+      "pageheight": "330",
+      "layer": [{
+        "type": "image",
+        "isEditable": "false",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "3",
+        "rect": "0;0;450;330",
+        "img": {
+          "id": "e54dbd3de118443683382a75100c61ff",
+          "url": "Templatethumb/e54dbd3de118443683382a75100c61ff.jpg",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "3555",
+          "primitiveHeight": "2610",
+          "imageRect": "0;0;450;330"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "270;161;111;114",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;111;114"
+        },
+        "mask": {
+          "id": "f15cc05029a085c37e376ebd6c1dbbc9",
+          "url": "Templatethumb/f15cc05029a085c37e376ebd6c1dbbc9.png",
+          "isrectmask": "false"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "253;32;136;129",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;136;129"
+        },
+        "mask": {
+          "id": "c515d750f5b52eb4b1cee6d57804c0bf",
+          "url": "Templatethumb/c515d750f5b52eb4b1cee6d57804c0bf.png",
+          "isrectmask": "false"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "124;76;145;230",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;145;230"
+        },
+        "mask": {
+          "id": "8bfd0f08303f6befa7f25cff1efd6479",
+          "url": "Templatethumb/8bfd0f08303f6befa7f25cff1efd6479.png",
+          "isrectmask": "false"
+        }
+      }]
+    }, {
+      "id": "2a287d8cb9106c7f47521402391e393f",
+      "photocount": "3",
+      "text": "",
+      "path": "Templatethumb/2a287d8cb9106c7f47521402391e393f.xml",
+      "images": "Templatethumb/2a287d8cb9106c7f47521402391e393f_s.jpg",
+      "imagem": "Templatethumb/2a287d8cb9106c7f47521402391e393f_M.jpg",
+      "image": "Templatethumb/2a287d8cb9106c7f47521402391e393f.jpg",
+      "vorh": "-1",
+      "index": "16",
+      "imagemm": "Templatethumb/15.jpg",
+      "pagewidth": "450",
+      "pageheight": "330",
+      "layer": [{
+        "type": "image",
+        "isEditable": "false",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "3",
+        "rect": "0;0;450;330",
+        "img": {
+          "id": "381ea97866c2578435b04d4a74d43803",
+          "url": "Templatethumb/381ea97866c2578435b04d4a74d43803.jpg",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "3555",
+          "primitiveHeight": "2610",
+          "imageRect": "0;0;450;330"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "63;147;69;72",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;69;72"
+        },
+        "mask": {
+          "id": "3ea725c6ecdb91890b35fea1f969a717",
+          "url": "Templatethumb/3ea725c6ecdb91890b35fea1f969a717.png",
+          "isrectmask": "false"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "152;179;64;66",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;64;66"
+        },
+        "mask": {
+          "id": "3d48ca73cdc3a2d4dee0d45e106a1f5e",
+          "url": "Templatethumb/3d48ca73cdc3a2d4dee0d45e106a1f5e.png",
+          "isrectmask": "false"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "222;28;136;167",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;136;167"
+        },
+        "mask": {
+          "id": "7fcd678fb538eb21448e5972f8db0a57",
+          "url": "Templatethumb/7fcd678fb538eb21448e5972f8db0a57.png",
+          "isrectmask": "false"
+        }
+      }]
+    }, {
+      "id": "a8eb8cc5df1fe41b6a559e018ed60e50",
+      "photocount": "2",
+      "text": "",
+      "path": "Templatethumb/a8eb8cc5df1fe41b6a559e018ed60e50.xml",
+      "images": "Templatethumb/a8eb8cc5df1fe41b6a559e018ed60e50_s.jpg",
+      "imagem": "Templatethumb/a8eb8cc5df1fe41b6a559e018ed60e50_M.jpg",
+      "image": "Templatethumb/a8eb8cc5df1fe41b6a559e018ed60e50.jpg",
+      "vorh": "-1",
+      "index": "17",
+      "imagemm": "Templatethumb/16.jpg",
+      "pagewidth": "450",
+      "pageheight": "330",
+      "layer": [{
+        "type": "image",
+        "isEditable": "false",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "3",
+        "rect": "0;0;450;330",
+        "img": {
+          "id": "01845899c8f3d75fe6d025c0f52f1c31",
+          "url": "Templatethumb/01845899c8f3d75fe6d025c0f52f1c31.jpg",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "3555",
+          "primitiveHeight": "2610",
+          "imageRect": "0;0;450;330"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "68;111;163;166",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;163;166"
+        },
+        "mask": {
+          "id": "96a3e491d94ad89746bccfdb8a519314",
+          "url": "Templatethumb/96a3e491d94ad89746bccfdb8a519314.png",
+          "isrectmask": "false"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "232;29;154;130",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;154;130"
+        },
+        "mask": {
+          "id": "d6df49d8164ee098cf63dee2a0094e1a",
+          "url": "Templatethumb/d6df49d8164ee098cf63dee2a0094e1a.png",
+          "isrectmask": "false"
+        }
+      }]
+    }, {
+      "id": "83695b3886d3648c413be533fb4069be",
+      "photocount": "2",
+      "text": "",
+      "path": "Templatethumb/83695b3886d3648c413be533fb4069be.xml",
+      "images": "Templatethumb/83695b3886d3648c413be533fb4069be_s.jpg",
+      "imagem": "Templatethumb/83695b3886d3648c413be533fb4069be_M.jpg",
+      "image": "Templatethumb/83695b3886d3648c413be533fb4069be.jpg",
+      "vorh": "-1",
+      "index": "18",
+      "imagemm": "Templatethumb/17.jpg",
+      "pagewidth": "450",
+      "pageheight": "330",
+      "layer": [{
+        "type": "image",
+        "isEditable": "false",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "3",
+        "rect": "0;0;450;330",
+        "img": {
+          "id": "0d0517e51fe726b1e4924dd9156ed846",
+          "url": "Templatethumb/0d0517e51fe726b1e4924dd9156ed846.jpg",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "3555",
+          "primitiveHeight": "2610",
+          "imageRect": "0;0;450;330"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "160;162;212;120",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;212;120"
+        },
+        "mask": {
+          "id": "468b823d362a42ebc74109563c2afca0",
+          "url": "Templatethumb/468b823d362a42ebc74109563c2afca0.png",
+          "isrectmask": "false"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "160;38;212;120",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;212;120"
+        },
+        "mask": {
+          "id": "0d297b1e16e0caee85df2d2c7bf052d9",
+          "url": "Templatethumb/0d297b1e16e0caee85df2d2c7bf052d9.png",
+          "isrectmask": "false"
+        }
+      }]
+    }, {
+      "id": "e3a717bb351375f1b4dd14ef677b5a06",
+      "photocount": "4",
+      "text": "",
+      "path": "Templatethumb/e3a717bb351375f1b4dd14ef677b5a06.xml",
+      "images": "Templatethumb/e3a717bb351375f1b4dd14ef677b5a06_s.jpg",
+      "imagem": "Templatethumb/e3a717bb351375f1b4dd14ef677b5a06_M.jpg",
+      "image": "Templatethumb/e3a717bb351375f1b4dd14ef677b5a06.jpg",
+      "vorh": "-1",
+      "index": "19",
+      "imagemm": "Templatethumb/18.jpg",
+      "pagewidth": "450",
+      "pageheight": "330",
+      "layer": [{
+        "type": "image",
+        "isEditable": "false",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "3",
+        "rect": "0;0;450;330",
+        "img": {
+          "id": "7a7d936c6ab3297fa215243813ab800b",
+          "url": "Templatethumb/7a7d936c6ab3297fa215243813ab800b.jpg",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "3555",
+          "primitiveHeight": "2610",
+          "imageRect": "0;0;450;330"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "177;242;54;57",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;54;57"
+        },
+        "mask": {
+          "id": "e6727ffbb706ffbb6605f464358f3799",
+          "url": "Templatethumb/e6727ffbb706ffbb6605f464358f3799.png",
+          "isrectmask": "false"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "110;242;55;57",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;55;57"
+        },
+        "mask": {
+          "id": "eeb7d483a84951e73128d5ca451041b1",
+          "url": "Templatethumb/eeb7d483a84951e73128d5ca451041b1.png",
+          "isrectmask": "false"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "41;242;55;57",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;55;57"
+        },
+        "mask": {
+          "id": "d8c294bdc5c0942439b9b71ffa399d77",
+          "url": "Templatethumb/d8c294bdc5c0942439b9b71ffa399d77.png",
+          "isrectmask": "false"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "226;51;154;212",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;154;212"
+        },
+        "mask": {
+          "id": "d4cde71c900a9f3add32c11f903ed983",
+          "url": "Templatethumb/d4cde71c900a9f3add32c11f903ed983.png",
+          "isrectmask": "false"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "false",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "4",
+        "rect": "148;243;26;24",
+        "img": {
+          "id": "947f11ab75aff94f1a49421a8e6cfb81",
+          "url": "Templatethumb/947f11ab75aff94f1a49421a8e6cfb81.png",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "207",
+          "primitiveHeight": "195",
+          "imageRect": "0;0;26;24"
+        }
+      }]
+    }, {
+      "id": "dab26ce59465ebfaee236f08ea562b59",
+      "photocount": "3",
+      "text": "",
+      "path": "Templatethumb/dab26ce59465ebfaee236f08ea562b59.xml",
+      "images": "Templatethumb/dab26ce59465ebfaee236f08ea562b59_s.jpg",
+      "imagem": "Templatethumb/dab26ce59465ebfaee236f08ea562b59_M.jpg",
+      "image": "Templatethumb/dab26ce59465ebfaee236f08ea562b59.jpg",
+      "vorh": "-1",
+      "index": "20",
+      "imagemm": "Templatethumb/19.jpg",
+      "pagewidth": "450",
+      "pageheight": "330",
+      "layer": [{
+        "type": "image",
+        "isEditable": "false",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "3",
+        "rect": "0;0;450;330",
+        "img": {
+          "id": "b707d5af3859cea0bfd71fb9e69b6e31",
+          "url": "Templatethumb/b707d5af3859cea0bfd71fb9e69b6e31.jpg",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "3555",
+          "primitiveHeight": "2610",
+          "imageRect": "0;0;450;330"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "79;58;150;183",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;150;183"
+        },
+        "mask": {
+          "id": "401e8fafd5e7e0d63db6b2fb7a7a69d7",
+          "url": "Templatethumb/401e8fafd5e7e0d63db6b2fb7a7a69d7.png",
+          "isrectmask": "false"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "230;122;130;117",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;130;117"
+        },
+        "mask": {
+          "id": "73ec2f0d9927e88c5dbe2992d2d84b98",
+          "url": "Templatethumb/73ec2f0d9927e88c5dbe2992d2d84b98.png",
+          "isrectmask": "false"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "302;63;69;67",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;69;67"
+        },
+        "mask": {
+          "id": "808eda8a5e7c93b0e23b663cb569ae99",
+          "url": "Templatethumb/808eda8a5e7c93b0e23b663cb569ae99.png",
+          "isrectmask": "false"
+        }
+      }]
+    }, {
+      "id": "252b3a16472fad22251121dc1b742e7a",
+      "photocount": "2",
+      "text": "",
+      "path": "Templatethumb/252b3a16472fad22251121dc1b742e7a.xml",
+      "images": "Templatethumb/252b3a16472fad22251121dc1b742e7a_s.jpg",
+      "imagem": "Templatethumb/252b3a16472fad22251121dc1b742e7a_M.jpg",
+      "image": "Templatethumb/252b3a16472fad22251121dc1b742e7a.jpg",
+      "vorh": "-1",
+      "index": "21",
+      "imagemm": "Templatethumb/20.jpg",
+      "pagewidth": "450",
+      "pageheight": "330",
+      "layer": [{
+        "type": "image",
+        "isEditable": "false",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "3",
+        "rect": "0;0;450;330",
+        "img": {
+          "id": "55924948eb9f2bb7d5892250e53634cb",
+          "url": "Templatethumb/55924948eb9f2bb7d5892250e53634cb.jpg",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "3555",
+          "primitiveHeight": "2610",
+          "imageRect": "0;0;450;330"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "167;176;195;118",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;195;118"
+        },
+        "mask": {
+          "id": "d695ad4d68cd250da1b69dda1c341ace",
+          "url": "Templatethumb/d695ad4d68cd250da1b69dda1c341ace.png",
+          "isrectmask": "false"
+        }
+      }, {
+        "type": "image",
+        "isEditable": "true",
+        "alpha": "1",
+        "blendmode": "0",
+        "layertype": "1",
+        "rect": "167;27;195;118",
+        "img": {
+          "id": "",
+          "url": "",
+          "isColorOptimize": "0",
+          "isSkinColorOptimize": "0",
+          "imageRotation": "0",
+          "primitiveWidth": "0",
+          "primitiveHeight": "0",
+          "imageRect": "0;0;195;118"
+        },
+        "mask": {
+          "id": "fc4acbb14b7f6696006e3e12a10fc76a",
+          "url": "Templatethumb/fc4acbb14b7f6696006e3e12a10fc76a.png",
+          "isrectmask": "false"
+        }
+      }]
+    }]
+  }
+}
